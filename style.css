@@ -228,6 +228,8 @@ body {
 }
 #product1 .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  margin: -10px;
+  transition: 0.4s;
 }
 #product1 .pro img {
   width: 100%;
@@ -364,6 +366,11 @@ body {
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
+}
+#banner3 .banner-box:hover {
+  margin: -10px;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px #c3195d;
 }
 
 #banner3 .banner-box2 {
